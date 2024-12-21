@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "General Sans";
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#minicircle{
+    width: 10px;
+    height: 10px;
+    background-color: #fff;
+    z-index: 999999;
+    position: absolute;
+    border-radius: 50%;
+    transition:cubic-bezier(0.19, 1, 0.22, 1) .5s;
+}
+
+#main{
+    width: 100%;
+    background-color: black;
+}
+#hiro{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+}
+
+#nav{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 35px;
+}
+
+#nav a{
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#heading{
+    margin-top: 70px;
+    padding: 30px 10px;
+}
+
+#heading h1{
+    opacity: .5;
+    font-size: 10vw;
+    line-height: 0.9;
+    letter-spacing: 5px;
+    font-weight: 900;
+    margin-left: 30px;
+}
+
+#heading #second{
+    margin-left: 180px;
+}
+
+#blocktext{
+    width: fit-content;
+    display: flex;
+}
+
+#blocktext h5{
+    text-align: right;
+}
+
+#subHeroHeading{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 90px;
+    align-items: end;
+}
+
+#subHeroHeading h5{
+    text-align: right;
+    margin-right: 30px;
+    margin-top: 10px;
+    font-size: 1vw;
+
+}
+
+#hirofooter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px 50px;
+}
+
+#hirofooter a{
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+#footerArrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: right;
+    width: fit-content;
+}
+
+#footerArrow p{
+    width: 1.5vw;
+    height: 1.5vw;
+    border-radius: 50px;
+    margin-left: 7px;
+    background-color: gray;
+    text-align: center;
+}
+#footerArrow p i{
+    color: black;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+#second1 {
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+    padding-left : 2vw;
+    padding-top: 7vw;
+    
+}
+
+#item1 , #item2, #item3 {
+ display: flex;   
+ align-items: center;
+position: relative;
+ justify-content: space-between;
+ width: 90%;   
+ padding: 3vw 0vw;
+ border-top: 2px solid;
+ color: #fff;
+ text-transform: uppercase;
+ font-size: 4vw;
+ opacity: .6;
+}
+
+#item3{
+    border-bottom: 2px solid;
+    color: #fff; 
+}
+
+#item1 img , #item2 img, #item3 img{
+    width: 20vw;
+    height: 20vw;
+    opacity: 0;
+    position: absolute;
+    /* display: none; */
+}
+
+#item1 h5{
+    font-size: 1vw;
+}
+
+#item2 h5{
+    font-size: 1vw;
+}
+
+#item3 h5{
+    font-size: 1vw;
+}
+
+#about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 3vw;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding-top: 15vw;
+    padding-bottom: 15vw;
+}
+
+#about img{
+    width: 15vw;
+    height: 15vw;
+    margin-left: 40vw;
+
+}
+#about #abouttext{
+    width: 60vw;
+    padding-right: 16vw;
+}
+
+#about h3{
+    opacity: .6;
+    
+}
+#about h4{
+    font-size: 1vw;
+    line-height: 2vw; 
+    margin-bottom: 1.5vw;
+}
+
+#about #abouttext a{
+    width: 2vw;
+    height: 2vw;
+    color: #fff;
+    margin-top: 4vw;
+    padding: 6px 18px;
+    border: 1px #fff solid;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+#social{
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    padding-left: 3vw;
+    padding-bottom: 2vw;
+}
+
+#social #socialItems{
+    margin-top: 9vw;
+}
+
+#social h3{
+    margin-top: 3px;
+}
+
+#social head{
+    opacity: .5;;
+}
+
+#socialItems{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 3vw;
+}
+
+#letfItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+#rightItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vw;
+}
+
+#rightItem a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.productBox{
+    width: fit-content;
+    overflow: hidden;
+}
+
+.productBox h1,h5{
+    transform: translateY(120%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
